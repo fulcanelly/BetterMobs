@@ -44,6 +44,7 @@ public class Main extends JavaPlugin {
 
             // The plugin will disable itself when it doesn't have access to the class path.
             this.getPluginLoader().disablePlugin(this);
+            return;
         }
         this.getLogger().info("Has been enabled.");
     }
